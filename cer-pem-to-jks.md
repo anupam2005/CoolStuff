@@ -88,13 +88,14 @@ Use the keytool utility to import the .p12 file into a JKS keystore.
 
 Command:
 
-```keytool -importkeystore \
-  -srckeystore keystore.p12 \
-  -srcstoretype PKCS12 \
-  -srcalias alias_name \
-  -destkeystore keystore.jks \
-  -deststoretype JKS \
-  -destalias alias_name```
+
+  ```keytool -importkeystore \```
+  ```-srckeystore keystore.p12 \```
+  ```-srcstoretype PKCS12 \```
+  ```-srcalias alias_name \```
+  ```-destkeystore keystore.jks \```
+  ```-deststoretype JKS \```
+  ```-destalias alias_name```
 
 **Parameters:**
 - srckeystore keystore.p12: Specifies the input PKCS#12 file.
